@@ -3,10 +3,10 @@ def compute_area_of_circle(radius):
 	area = pi * radius * radius
 	return area
 
-radius1 = 30
-area1 = compute_area_of_circle(radius1)
-print(f"The area of circle with radius {radius1} is: {area1}")
+r1 = 30
+a1 = compute_area_of_circle(radius1)
+print(f"The area of circle with radius {r1} is: {a1}")
 
-radius2 = 40
-area2 = compute_area_of_circle(radius2)
-print(f"The area of circle with radius {radius2} is: {area2}")
+r2 = 40
+a2 = compute_area_of_circle(r2)
+print(f"The area of circle with radius {r2} is: {a2}")
